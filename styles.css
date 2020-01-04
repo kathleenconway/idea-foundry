@@ -1,0 +1,80 @@
+body {
+	font-family: 'Cabin', sans-serif;
+	font-weight: 400;
+	background-color: #fcfcfc;
+}
+
+.header {
+	display: flex;
+	border-bottom: 2px solid #5203fc;
+	padding-bottom:10px;
+	margin: 10px 4px;
+}
+
+.menu-item {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.menu-item.menu-link > a {
+	color: #6b6b6b;
+  text-decoration: none;
+}
+
+.menu-item.menu-link.menu-link_selected > a {
+  color: #5203fc;
+  text-decoration: none;
+}
+
+.menu-item.menu-link > a:hover {
+  color: #5203fc;
+  text-decoration: none;
+  transition: .4s
+}
+
+.font-container {
+	padding: 4rem 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button-grid {
+  display: flex;
+  padding: 2rem 0rem;
+}
+
+h1 {
+	font-weight: 700;
+}
+
+.use-for {
+  color: #5203fc;
+  text-transform: capitalize;
+}
+
+button, #new-font:hover {
+  border: none;
+  color: white;
+  background-color: #5203fc;
+  width: 10em;
+  height: 3em;
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: 0.3s
+  /*border-radius: .2em;*/
+}
+
+#new-font {
+  margin-right: .4em;
+  background-color: #fcfcfc;
+  color: #5203fc;
+  border: 2px #5203fc solid;
+}
+
+button:active, #new-font:active {
+  background-color: #712fff;
+}
