@@ -11,6 +11,7 @@ TODO: Add more cyberpunk-y effects and animations
 $(document).ready(function() {
   var fontList = [
     { name: "Jess C. Scott", description: "The Darker Side of Life", use: "The brightest light casts the darkest shadow." },
+    { name: "Eleanor", description: "Eleanor is a chunky, hardworking grotesk .", use: "Vertically-ethical sex toy company identity, new Dropbox wordmark" },
   ];
 
 // var quoteRandomize = '';

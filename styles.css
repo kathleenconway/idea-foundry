@@ -1,7 +1,9 @@
 body {
 	font-family: 'Cabin', sans-serif;
 	font-weight: 400;
-	background-color: #fcfcfc;
+  line-height: 1.6em;
+  color: #232323;
+	background-color: #f7f7f7;
 }
 
 .header {
